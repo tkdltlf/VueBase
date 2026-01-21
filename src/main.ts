@@ -6,6 +6,7 @@ import $ from 'jquery'
 import 'magnific-popup'
 import 'magnific-popup/dist/magnific-popup.css'
 import './assets/main.css'
+import './assets/main2.scss'
 
 const anyWindow = window as typeof window & { $?: typeof $; jQuery?: typeof $ };
 anyWindow.$ = $;
